@@ -62,7 +62,7 @@ function addLabel(layer, id) {
         // If the label hasn't been added to the map already
         // add it and set the added flag to true
         if (!layer.added) {
-          layer.addTo(map);
+          // layer.addTo(map);
           layer.added = true;
         }
   }
