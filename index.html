@@ -1255,58 +1255,7 @@
             style: style_NonEIECArea_12_0,
         });
         bounds_group.addLayer(layer_NonEIECArea_12);
-        map.on("zoomend", function(e) {
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_2);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_2);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_3);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_3);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_4);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_4);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_5);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_5);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_6);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_6);
-            }
-        });
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_2);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_2);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_3);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_3);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_4);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_4);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_5);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_5);
-            }
-            if (map.getZoom() <= 19 && map.getZoom() >= 8) {
-                map.addLayer(layer_EVregistrationsbyZIPAugust2026copy_6);
-            } else if (map.getZoom() > 19 || map.getZoom() < 8) {
-                map.removeLayer(layer_EVregistrationsbyZIPAugust2026copy_6);
-            }
+       
         const url = {"Nominatim OSM": "https://nominatim.openstreetmap.org/search?format=geojson&addressdetails=1&",
         "France BAN": "https://api-adresse.data.gouv.fr/search/?"}
         var photonControl = L.control.photon({
